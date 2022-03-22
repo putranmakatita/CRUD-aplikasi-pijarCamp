@@ -39,7 +39,7 @@ function hapus($data){
 
 function ubah($data, $id){
 	global $connection;
-	$namaProduk= htmlspecialchars($data['nama_produk']);
+	$namaProduk= htmlspecialchars($data['namaProduk']);
 	$harga = htmlspecialchars($data['harga']);
 	$keterangan = htmlspecialchars($data['keterangan']);
 	$jumlah = htmlspecialchars($data['jumlah']);
